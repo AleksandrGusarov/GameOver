@@ -1,0 +1,114 @@
+.about {
+    box-sizing: border-box;
+    max-width: 1180px;
+    height: 692px;
+    margin:0 auto 100px auto;
+    padding:0 0;
+}
+.about div {
+    max-width: 1180px;
+    min-height: 692px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.about__image {
+    max-width: 600px;
+    min-height: 596px;
+   position: relative;
+    display: inline-block;
+    margin: 0 0;
+}
+
+.about__paragraph {
+    font-weight: 400;
+    font-size: 20px;
+    white-space: pre-line;
+    line-height: 28px;
+    max-width: 500px;
+    min-height: 222px;
+    position: relative;
+    left: 80px;
+    bottom: 410px;
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 0 0;
+
+}
+.about__symbol {
+    font-weight: 400;
+    font-size: 44px;
+    text-transform: uppercase;
+    margin: 0 0;
+    color: #6C0287;
+}
+
+.about__quote {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    white-space: pre-line;
+    text-transform: uppercase;
+    max-width: 469px;
+    min-height: 191px;
+    position: relative;
+    left: 730px;
+    bottom: 410px;
+    display: inline-block;
+    margin: 0 0;
+}
+
+.about__quote:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url("../img/q.svg");
+    position: absolute;
+    left: -25px;
+    top: -5px;
+
+}
+
+.about__quote:after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/q.svg");
+    transform: rotate(180deg);
+    position: absolute;
+    right: 110px;
+}
+.about__cite {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    margin: 0 0 ;
+    white-space: pre-line;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding-left: 109px;
+    background-image: url("../img/ProfilePicture.png");
+    max-width: 388px;
+    min-height: 84px;
+    position: relative;
+    display: inline-block;
+    left: 330px;
+    bottom: 300px;
+}

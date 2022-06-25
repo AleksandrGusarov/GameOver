@@ -1,0 +1,81 @@
+
+.halls{
+    padding: 123px 0 0;
+}
+
+.halls__title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 40px ;
+    margin: 0 0;
+}
+
+.halls__list{
+    list-style: none;
+    padding: 0 0;
+    position: relative;
+}
+
+.halls__EightyVibes {
+    width: 580px;
+    height: 349px;
+    background-image: url("../img/80vibes.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    line-height: 5;
+    text-transform: uppercase;
+}
+
+.halls__StarWars{
+    width: 580px;
+    height: 349px;
+    background-image: url("../img/StarWars.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 70px;
+    text-align:center;
+    line-height: 5;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.halls__WildWest{
+    width: 580px;
+    height: 349px;
+    background-image: url("../img/WildWest.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    line-height: 5;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.halls__NeonStyle{
+    width: 580px;
+    height: 349px;
+    Background-image: url("../img/NeonStyle.png");
+    background-size: contain;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    line-height: 5;
+    text-transform: uppercase;
+    position: absolute;
+    top: 370px;
+    right: 0px;
+}

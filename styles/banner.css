@@ -1,0 +1,33 @@
+
+.banner{
+    padding: 0 0 600px 0;
+}
+
+.banner__title:after {
+    content: "";
+    width: 675px;
+    height: 762px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/GameOverHeader.png");
+    position: absolute;
+    right: -5px;
+    top: 70px;
+}
+
+.banner__title{
+    font-size: 150px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 0;
+    letter-spacing: -13px;
+    word-spacing: -10px;
+    position: relative;
+    max-width: 1280px;
+}
+
+.banner__subtitle{
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0 0 0 100px ;
+}

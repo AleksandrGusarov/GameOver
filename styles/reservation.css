@@ -1,0 +1,25 @@
+
+.reservation__form h3{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.reservation__form {
+    padding-bottom: 50px;
+}
+
+.reservation__title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0 50px 0;
+    margin: 0 0;
+}
+
+.selection__kitset img {
+    width: 30px;
+    height: 20px;
+    padding-right: 5px;
+    object-fit: contain;
+}
