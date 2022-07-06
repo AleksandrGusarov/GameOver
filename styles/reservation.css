@@ -124,13 +124,16 @@
     display: flex;
     flex-flow: row nowrap;
     gap: 50px;
+    width: 1180px;
+    padding-left: 100px;
+
 }
 
 .first {
     position: relative;
     display: flex;
     flex-flow: row wrap;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     gap: 32px;
@@ -162,6 +165,7 @@
 }
 
 .next {
+    width: 630px;
     display: flex;
     flex-flow: row wrap;
     font-weight: 400;
