@@ -1,11 +1,6 @@
-
-.reservation__form h3{
-    padding: 0 0;
-    margin: 0 0;
-}
-
-.reservation__form {
-    padding-bottom: 50px;
+.reservation {
+    padding: 80px 0 ;
+    background-color: #440F51;
 }
 
 .reservation__title {
@@ -13,13 +8,186 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    padding: 50px 0 50px 0;
-    margin: 0 0;
+    margin-bottom: 40px;
 }
 
-.selection__kitset img {
-    width: 30px;
-    height: 20px;
-    padding-right: 5px;
-    object-fit: contain;
+.reservation__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.halls-choice {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.halls-choice__button {
+    font-size: 30px;
+    font-weight: 700;
+    width: 250px;
+    height: 55px;
+    line-height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.kitset__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kitset__wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 61px;
+}
+
+.console {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 22px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.console__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.console input {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    left: -10px;
+    bottom: -6px;
+}
+
+.boardgames {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 22px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.boardgames__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.boardgames input {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -10px;
+    bottom: -6px;
+}
+
+.othergames {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 22px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.othergames__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.othergames input {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -10px;
+    bottom: -6px;
+}
+
+.datatime__main {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+
+.first {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    gap: 32px;
+    width: 300px;
+    height: 52px;
+    align-content: center;
+    bottom: -70px;
+}
+
+.first__date {
+    width: 134px;
+    height: 52px;
+}
+
+.first__time {
+    width: 134px;
+    height: 52px;
+}
+
+.first__population {
+    width: 300px;
+    height: 52px;
+}
+
+.datatime__title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.next {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    gap: 6px 50px;
+    white-space: pre-line;
+}
+
+.next input {
+    width: 280px;
+    height: 52px;
+}
+
+.next__button {
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 28px;
+    color: #6C0287;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    bottom: -34px;
+    left: 310px;
+    margin-bottom: 35px;
 }

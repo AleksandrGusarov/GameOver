@@ -1,0 +1,36 @@
+.header__section {
+    padding: 38px 0 29px 0;
+}
+
+.header__line {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 75px;
+}
+
+.navigation__list {
+    min-width: 587px;
+    font-weight: 400;
+    font-size: 22px;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0 0;
+    padding: 12px 0;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__call {
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1B1A1B;
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+    padding: 12px 32px 13px;
+}

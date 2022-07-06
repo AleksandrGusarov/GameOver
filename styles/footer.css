@@ -1,7 +1,36 @@
+.footer {
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%) ;
+    min-height: 629px;
+}
+
+.contacts__section {
+    margin: 0 0;
+    padding: 50px 0 10px 0;
+}
+
+.contacts__container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 120px;
+    margin-bottom: 156px;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 35px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 14px;
+}
 
 .contacts__title {
     font-weight: 700;
     font-size: 40px;
+    line-height: 60px;
     text-align: center;
     text-transform: uppercase;
     margin: 0 0 54px 0 ;
@@ -10,62 +39,71 @@
 .contacts__address {
     font-weight: 700;
     font-size: 24px;
+    line-height: 28px;
+    width: 380px;
+    height: 61px;
     text-align: left;
     white-space: pre-line;
-    margin: 0 0 30px 0;
     padding: 0 0 0 50px;
-    background-size: 30px;
+    background-size: 32px;
     background-repeat: no-repeat;
     background-position: left;
     background-image: url("../img/location.svg");
+    margin-bottom: 25px;
 }
 
 .contacts__phone {
-    height: 56px;
-    width: 1090px;
     font-weight: 700;
     font-size: 24px;
+    line-height: 28px;
+    width: 380px;
+    height: 28px;
     text-align: left;
     color: white;
     white-space: pre-line;
     text-decoration: none;
     padding: 0 0 0 50px;
-    margin: 0 0 38px 0;
-    background-size: contain;
+    background-size: 32px;
     background-repeat: no-repeat;
     background-position: left;
     background-image: url("../img/bx_bxs-phone-call.svg");
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 
 .contacts__mail {
     font-weight: 700;
     font-size: 24px;
+    line-height: 28px;
+    width: 380px;
+    height: 28px;
     text-align: left;
     color: white;
     text-decoration: none;
     padding: 0 0 0 50px;
-    background-size: contain;
+    background-size: 32px;
     background-repeat: no-repeat;
     background-position: left;
     background-image: url("../img/envelope.svg");
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 
-.contacts__info {
-    white-space: pre-line;
-    margin: 0 0 40px 0;
-}
-
-.contacts__info a {
-    margin: 10px  0;
+.contacts__image {
+    width: 680px;
+    height: 274px;
 }
 
 .social {
-    margin:0 0 21px 0;
+    margin:0 0;
     padding: 0 0;
 }
 
 .social__column {
     padding: 0 0;
+    margin: 0 0;
 }
 
 .social__item {
@@ -97,4 +135,16 @@
 
 .social__link:active {
     color: #840AA3;
+}
+
+.bilding {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: end;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.bilding__design {
+    white-space: pre-line;
 }

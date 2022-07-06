@@ -1,6 +1,6 @@
 
 .halls{
-    padding: 123px 0 0;
+    padding: 56px 0 100px 0;
 }
 
 .halls__title{
@@ -28,8 +28,11 @@
     font-weight: 700;
     font-size: 70px;
     text-align: center;
-    line-height: 5;
     text-transform: uppercase;
+    padding:0 120px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .halls__StarWars{
@@ -42,11 +45,14 @@
     font-weight: 700;
     font-size: 70px;
     text-align:center;
-    line-height: 5;
+    padding:0 120px;
     text-transform: uppercase;
     position: absolute;
     top: 0px;
     right: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .halls__WildWest{
@@ -58,11 +64,14 @@
     font-weight: 700;
     font-size: 70px;
     text-align: center;
-    line-height: 5;
+    padding:0 120px;
     text-transform: uppercase;
     position: relative;
     top: 0px;
     right: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .halls__NeonStyle{
@@ -73,9 +82,12 @@
     font-weight: 700;
     font-size: 70px;
     text-align: center;
-    line-height: 5;
+    padding:0 120px;
     text-transform: uppercase;
     position: absolute;
     top: 370px;
     right: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }

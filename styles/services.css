@@ -1,0 +1,106 @@
+.services__title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    max-width: 980px;
+    min-height: 103px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto 40px;
+    padding: 0 50px;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+}
+
+.services__list {
+    max-width: 1180px;
+    min-height: 496px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0;
+    list-style: none;
+    padding: 0 0;
+    position: relative;
+    display: flex;
+    gap: 40px 20px;
+    flex-flow: row wrap;
+}
+
+.vr{
+    width: 380px;
+    height: 228px;
+    background-image: url("../img/VR.png");
+    position: relative;
+    background-size: contain;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: end;
+    padding: 0 0 30px 40px;
+}
+
+.audio {
+    width: 380px;
+    height: 228px;
+    background-image: url("../img/audio.png");
+    position: relative;
+    background-size: contain;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: end;
+    padding: 0 40px 6px 40px;
+}
+
+.karaoke {
+    width: 380px;
+    height: 228px;
+    background-image: url("../img/micro.png");
+    position: relative;
+    background-size: contain;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: end;
+    padding: 0 0 30px 40px;
+}
+
+.board-games {
+    width: 380px;
+    height: 228px;
+    background-image: url("../img/game.png");
+    position: relative;
+    background-size: contain;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: end;
+    padding: 0 0 30px 40px;
+}
+
+.movies {
+    width: 380px;
+    height: 228px;
+    background-image: url("../img/netflix.png");
+    position: relative;
+    background-size: contain;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: end;
+    padding: 0 40px 10px 40px;
+}
+
+.playstation {
+    width: 380px;
+    height: 228px;
+    background-image: url("../img/sony.png");
+    position: relative;
+    background-size: contain;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: end;
+    padding: 0 0 30px 40px;
+}

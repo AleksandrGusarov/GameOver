@@ -4,7 +4,11 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 0 50px 0;
+    margin-bottom:40px ;
+}
+
+.feedback__list {
+    margin: 0 0;
 }
 
 .feedback__item {
@@ -12,79 +16,145 @@
     white-space: pre-line;
 }
 
-.card-one__title {
-    position: relative;
-    padding: 180px 0 0 40px;
+.card-one {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 11px;
+    margin-bottom: 50px;
 }
 
-.card-one__title:before {
-    content: "";
-    width: 180px;
-    height: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image:url("../img/stephanie-cook-NDCy2-9JhUs-unsplash.jpg") ;
-    position: absolute;
-    border-radius: 50%;
-    left: auto;
-    bottom: 30px;
-    left: 5px;
+.card-one__title {
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    width: 280px;
+    height: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: end;
+}
+
+.card-one__image {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .card-one__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    width: 680px;
+    height: 88px;
     position: relative;
-    padding-left: 250px;
-    bottom: 150px;
+    bottom: -40px;
+}
+
+.card-next {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 11px;
+    margin-bottom: 50px;
 }
 
 .card-next__title {
+    font-weight: 400;
+    font-size: 20px;
     position: relative;
-    padding: 180px 0 0 40px;
+    width: 280px;
+    height: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: end;
 }
 
-.card-next__title:before {
-    content: "";
-    width: 180px;
-    height: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../img/david-hurley-MOM0aPcKWhQ-unsplash.jpg");
-    position: absolute;
-    border-radius: 50%;
-    left: auto;
-    bottom: 30px;
-    left: 5px;
+.card-next__image {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .card-next__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    width: 680px;
+    height: 88px;
     position: relative;
-    padding-left: 250px;
-    bottom: 150px;
+    bottom: -60px;
+}
+
+.card-next {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 11px;
+    margin-bottom: 50px;
+}
+
+.card-next__title {
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    width: 280px;
+    height: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: end;
+}
+
+.card-next__image {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-next__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    width: 680px;
+    height: 88px;
+    position: relative;
+    bottom: -60px;
+}
+
+.card-last {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 11px;
 }
 
 .card-last__title {
+    font-weight: 400;
+    font-size: 20px;
     position: relative;
-    padding: 180px 0 0 40px;
+    width: 280px;
+    height: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: end;
 }
 
-.card-last__title:before {
-    content: "";
-    width: 170px;
-    height: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../img/midas-hofstra-tidSLv-UaNs-unsplash.jpg");
-    position: absolute;
-    border-radius: 50%;
-    left: auto;
-    bottom: 30px;
-    left: 5px;
+.card-last__image {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .card-last__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    width: 680px;
+    height: 88px;
     position: relative;
-    padding-left: 250px;
-    bottom: 150px;
+    bottom: -60px;
 }
-
-
