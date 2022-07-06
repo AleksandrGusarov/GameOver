@@ -30,7 +30,7 @@
 .vr{
     width: 380px;
     height: 228px;
-    background-image: url("../img/VR.png");
+    background-image: url("../img/vr.png");
     position: relative;
     background-size: contain;
     display: flex;
