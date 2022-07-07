@@ -9,9 +9,24 @@
 }
 
 .faq__button{
-    position: absolute;
-    right: 60px;
-    top: 20px;
+    width: 46px;
+    max-height: 44px;
+    border: none;
+    outline: 2px solid transparent;
+    outline-offset: 4px;
+    border-radius: 50%;
+}
+
+.purple {
+    display: flex;
+    width: 46px;
+    height: 46px;
+}
+
+.white {
+    display: flex;
+    width: 46px;
+    height: 46px;
 }
 
 .purple:hover circle{
@@ -40,7 +55,7 @@
     content: "";
     background-image: url("../img/change_white.svg");
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
 }
 
 .purple:active svg {
@@ -52,15 +67,16 @@
     content: "";
     background-image: url("../img/change_purple.svg");
     background-repeat: no-repeat;
-    position: absolute;
+    background-size: 45px;
+
 }
 
-.faq__checked{
-    display: none;
+.white:focus {
+    outline-color: #ffffff ;
 }
 
-.faq__checkbox{
-    display: none;
+.purple:focus {
+    outline-color: #6C0287 ;
 }
 
 .faq__section {
@@ -87,4 +103,8 @@
     padding: 30px 70px;
     list-style: none;
     position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
 }
