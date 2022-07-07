@@ -33,4 +33,21 @@
     border: 3px solid #CD06FF;
     border-radius: 10px;
     padding: 12px 32px 13px;
+    outline: 1px solid transparent;
+}
+
+.navigation__call:hover {
+    background-color: #6C0287;
+    border-color: #6C0287;
+}
+
+.navigation__call:active {
+    background-color: #640AA3;
+    border-color: #640AA3;
+}
+
+.navigation__call:focus {
+    background-color: #6C0287;
+    border-color: #6C0287;
+    outline-color: #6C0287;
 }

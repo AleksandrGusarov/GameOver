@@ -8,10 +8,51 @@
     padding: 0 0;
 }
 
-.faq__img{
+.faq__button{
     position: absolute;
     right: 60px;
     top: 20px;
+}
+
+.purple:hover circle{
+    fill: #6C0287;
+    stroke: #6C0287;
+}
+
+.purple:hover path{
+    fill: #ffffff;
+}
+
+.white:hover path {
+    fill: #6C0287;
+}
+
+.white:hover circle {
+    fill: #FFFFFF;
+}
+
+.white:active svg {
+    opacity: 0;
+    position: relative;
+}
+
+.white:active {
+    content: "";
+    background-image: url("../img/change_white.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.purple:active svg {
+    opacity: 0;
+    position: relative;
+}
+
+.purple:active {
+    content: "";
+    background-image: url("../img/change_purple.svg");
+    background-repeat: no-repeat;
+    position: absolute;
 }
 
 .faq__checked{

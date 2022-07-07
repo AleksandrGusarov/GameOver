@@ -92,6 +92,20 @@
     text-transform: uppercase;
     margin-bottom: 154px;
     box-shadow: 0 0 8px 3px #6C0287;
+    outline: 1px solid transparent ;
+}
+
+.second__button:hover {
+    background-color: #840AA3;
+}
+
+.second__button:active {
+    background-color: #640AA3;
+}
+
+.second__button:focus {
+    background-color: #840AA3;
+    outline-color: #840AA3;
 }
 
 /*.second__button:after {
@@ -107,8 +121,32 @@
     right: 60px;
 } */
 
-.second__image {
+.second__btn {
     position: absolute;
     right: 540px;
-    bottom: 110px;
+    bottom: 50px;
+    color: transparent;
+    outline: 1px solid transparent ;
 }
+
+.second__svg:hover circle {
+    fill: #ffffff;
+}
+
+.second__svg:hover rect {
+    fill: #6C0287;
+}
+
+.second__svg:active circle {
+    fill: #CD06FF;
+    stroke: #CD06FF;
+}
+
+.second__svg:active rect {
+    fill: #ffffff;
+}
+
+.second__btn:focus {
+    outline-color: #CD06FF;
+}
+

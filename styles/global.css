@@ -27,7 +27,7 @@ img {
 
 svg {
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 button {
@@ -35,9 +35,14 @@ button {
     cursor: pointer;
 }
 
+input {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 ul ol {

@@ -118,23 +118,25 @@
     height: 50px;
     color: #ffffff;
     outline: 1px solid transparent;
-    outline-offset: 3px;
     border-radius: 50%;
+    outline-offset: 2px;
     transition-property: color, outline-color;
     transition-duration: 0.3s, 0.2s;
     transition-timing-function: ease-in-out;
 }
 
 .social__link:hover {
-    color: #CD06FF;
+    color: #EADEED;
 }
 
 .social__link:focus {
+    color: #EADEED;
     outline-color: #CD06FF;
 }
 
 .social__link:active {
-    color: #840AA3;
+    color: #CD06FF;
+    outline-color: transparent;
 }
 
 .bilding {
