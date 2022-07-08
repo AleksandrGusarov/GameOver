@@ -24,6 +24,23 @@
     align-items: center;
 }
 
+.navigation__item {
+    outline: 1px solid transparent;
+    outline-offset: 2px;
+}
+
+.navigation__item:hover {
+    color: #CD06FF;
+}
+
+.navigation__item:active {
+    color: #640AA3;
+}
+
+.navigation__item:focus {
+    outline-color: #6C0287;
+}
+
 .navigation__call {
     font-weight: 700;
     font-size: 22px;
