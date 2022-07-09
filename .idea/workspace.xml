@@ -4,13 +4,7 @@
     <list default="true" id="f2daa73e-d3c9-4c24-82e4-b5722c191d24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/halls.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/halls.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/reservation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reservation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/services.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,8 @@
       <workItem from="1657116894809" duration="1877000" />
       <workItem from="1657196221329" duration="19865000" />
       <workItem from="1657305740785" duration="2870000" />
-      <workItem from="1657367594385" duration="6683000" />
+      <workItem from="1657367594385" duration="6910000" />
+      <workItem from="1657379906140" duration="552000" />
     </task>
     <servers />
   </component>
