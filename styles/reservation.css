@@ -40,17 +40,23 @@
 .halls-choice__button:hover {
     background-color: #EADEED;
     outline-color: #640AA3;
+    transition-duration: 2s;
+    transition-property: outline-color, background-color;
 }
 
 .halls-choice__button:focus {
     background-color: #FFFFFF;
     outline-color: #640AA3;
+    transition-duration: 2s;
+    transition-property: outline-color, background-color;
 }
 
 .halls-choice__button:active {
     color: #ffffff;
     background-color: #6C0287;
     outline-color: #FFFFFF;
+    transition-duration: 2s;
+    transition-property: outline-color, background-color, color;
 }
 
 .kitset__title {
@@ -95,6 +101,8 @@
 
 .console__radio:focus {
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .boardgames {
@@ -123,6 +131,8 @@
 
 .boardgames__input:focus {
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .othergames {
@@ -151,6 +161,8 @@
 
 .othergames__input:focus {
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .datatime__main {
@@ -184,6 +196,8 @@
 
 .first__date:focus{
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .first__time {
@@ -194,6 +208,8 @@
 
 .first__time:focus{
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .first__population {
@@ -204,6 +220,8 @@
 
 .first__population:focus{
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .datatime__title {
@@ -232,6 +250,8 @@
 
 .next__input:focus {
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 
 .next__button {
@@ -255,17 +275,23 @@
     color: #6C0287;
     background-color: #EADEED;
     outline-color: #6C0287;
+    transition-duration: 1.5s;
+    transition-property: outline-color, color, background-color;
 }
 
 .next__button:focus {
     background-color: #FFFFFF;
     color: #6C0287;
     outline-color: #6C0287;
+    transition-duration: 1.5s;
+    transition-property: outline-color, color, background-color;
 }
 
 .next__button:active {
     background-color: #EADEED;
     outline-color: transparent;
+    transition-duration: 1.5s;
+    transition-property: background-color;
 }
 
 

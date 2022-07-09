@@ -31,10 +31,14 @@
 
 .navigation__item:hover {
     color: #CD06FF;
+    transition-duration: 1.5s;
+    transition-property: color;
 }
 
 .navigation__item:active {
     color: #640AA3;
+    transition-duration: 1s;
+    transition-property: color;
 }
 
 .navigation__item:focus {
@@ -56,15 +60,21 @@
 .navigation__call:hover {
     background-color: #6C0287;
     border-color: #6C0287;
+    transition-duration: 2s;
+    transition-property: background-color, border-color;
 }
 
 .navigation__call:active {
     background-color: #640AA3;
     border-color: #640AA3;
+    transition-duration: 1.5s;
+    transition-property: background-color, border-color;
 }
 
 .navigation__call:focus {
     background-color: #6C0287;
     border-color: #6C0287;
     outline-color: #6C0287;
+    transition-duration: 2s;
+    transition-property: background-color, border-color, outline-color;
 }

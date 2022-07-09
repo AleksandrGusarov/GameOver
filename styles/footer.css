@@ -61,7 +61,6 @@
     text-align: left;
     color: white;
     white-space: pre-line;
-    text-decoration: none;
     padding: 0 0 0 50px;
     background-size: 32px;
     background-repeat: no-repeat;
@@ -77,6 +76,8 @@
     color: #ffffff;
     background-color: #6C0287;
     outline-color: #ffffff;
+    transition-duration: 2s;
+    transition-property: color, background-color, outline-color;
 }
 
 .contacts__mail {
@@ -87,7 +88,6 @@
     height: 28px;
     text-align: left;
     color: white;
-    text-decoration: none;
     padding: 0 0 0 50px;
     background-size: 32px;
     background-repeat: no-repeat;
@@ -103,6 +103,8 @@
     color: #ffffff;
     background-color: #6C0287;
     outline-color: #ffffff;
+    transition-duration: 2s;
+    transition-property: color, background-color, outline-color;
 }
 
 .contacts__image {
@@ -141,16 +143,22 @@
 
 .social__link:hover {
     color: #EADEED;
+    transition-duration: 2s;
+    transition-property: color;
 }
 
 .social__link:focus {
     color: #EADEED;
     outline-color: #CD06FF;
+    transition-duration: 1s;
+    transition-property: color, outline-color;
 }
 
 .social__link:active {
     color: #CD06FF;
     outline-color: transparent;
+    transition-duration: 1s;
+    transition-property: color, outline-color;
 }
 
 .building {
@@ -172,5 +180,7 @@
     color: #ffffff;
     background-color: #6C0287;
     outline-color: #ffffff;
+    transition-duration: 2s;
+    transition-property: color, outline-color, background-color;
 }
 

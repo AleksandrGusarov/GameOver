@@ -32,18 +32,30 @@
 .purple:hover circle{
     fill: #6C0287;
     stroke: #6C0287;
+    transition-duration: 3s;
+    transition-delay: 0.6s;
+    transition-timing-function: linear;
+    transition-property: fill, stroke;
 }
 
 .purple:hover path{
     fill: #ffffff;
+    transition-duration: 0.9s;
+    transition-property: fill;
 }
 
 .white:hover path {
     fill: #6C0287;
+    transition-duration: 0.9s;
+    transition-property: fill;
 }
 
 .white:hover circle {
     fill: #FFFFFF;
+    transition-duration: 3s;
+    transition-delay: 0.6s;
+    transition-timing-function: linear;
+    transition-property: fill;
 }
 
 .white:active svg {
@@ -56,6 +68,10 @@
     background-image: url("../img/change_white.svg");
     background-repeat: no-repeat;
     position: relative;
+    transition-duration: 3s;
+    transition-delay: 0.6s;
+    transition-timing-function: linear;
+    transition-property: background-image;
 }
 
 .purple:active svg {
@@ -68,15 +84,22 @@
     background-image: url("../img/change_purple.svg");
     background-repeat: no-repeat;
     background-size: 45px;
-
+    transition-duration: 3s;
+    transition-delay: 0.6s;
+    transition-timing-function: linear;
+    transition-property: background-image;
 }
 
 .white:focus {
     outline-color: #ffffff ;
+    transition-duration: 2s;
+    transition-property:outline-color;
 }
 
 .purple:focus {
     outline-color: #6C0287 ;
+    transition-duration: 2s;
+    transition-property:outline-color;
 }
 
 .faq__section {

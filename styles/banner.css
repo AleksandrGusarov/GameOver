@@ -97,29 +97,22 @@
 
 .second__button:hover {
     background-color: #840AA3;
+    transition-duration: 1s;
+    transition-property: background-color;
 }
 
 .second__button:active {
     background-color: #640AA3;
+    transition-duration: 1s;
+    transition-property: background-color;
 }
 
 .second__button:focus {
     background-color: #840AA3;
     outline-color: #840AA3;
+    transition-duration: 2s;
+    transition-property: background-color, outline-color;
 }
-
-/*.second__button:after {
-    content: "";
-    background-image: url("../img/arrow-down.png");
-    position: absolute;
-    width: 67px;
-    height: 141px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    top: -135px;
-    right: 60px;
-} */
 
 .second__btn {
     position: absolute;
@@ -131,22 +124,32 @@
 
 .second__svg:hover circle {
     fill: #ffffff;
+    transition-duration: 2s;
+    transition-property: fill;
 }
 
 .second__svg:hover rect {
     fill: #6C0287;
+    transition-duration: 2s;
+    transition-property: fill;
 }
 
 .second__svg:active circle {
     fill: #CD06FF;
     stroke: #CD06FF;
+    transition-duration: 2s;
+    transition-property: fill, stroke;
 }
 
 .second__svg:active rect {
     fill: #ffffff;
+    transition-duration: 2s;
+    transition-property: fill;
 }
 
 .second__btn:focus {
     outline-color: #CD06FF;
+    transition-duration: 2s;
+    transition-property: outline-color;
 }
 

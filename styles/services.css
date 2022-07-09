@@ -40,6 +40,15 @@
     padding: 0 0 30px 40px;
 }
 
+.services__item:hover {
+    transform: scale(1.1);
+}
+
+.services__item {
+    transition-duration: 2s;
+    transition-property: transform;
+}
+
 .audio {
     width: 380px;
     height: 228px;
