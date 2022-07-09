@@ -58,12 +58,12 @@
     transition-property: fill;
 }
 
- .white:active svg {
+ .faq__item:active .white svg {
     opacity: 0;
     position: relative;
 }
 
- .white:active {
+ .faq__item:active .white {
     content: "";
     background-image: url("../img/change_white.svg");
     background-repeat: no-repeat;
@@ -74,12 +74,12 @@
     transition-property: background-image;
 }
 
-.purple:active svg {
+.faq__item:active .purple svg {
     opacity: 0;
     position: relative;
 }
 
-.purple:active {
+.faq__item:active .purple {
     content: "";
     background-image: url("../img/change_purple.svg");
     background-repeat: no-repeat;
