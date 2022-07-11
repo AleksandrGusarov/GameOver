@@ -1,6 +1,6 @@
 .reservation {
     padding: 80px 0 ;
-    background-color: #440F51;
+    background-color: var(--primary-color-2);
 }
 
 .reservation__title {
@@ -38,22 +38,22 @@
 }
 
 .halls-choice__button:hover {
-    background-color: #EADEED;
-    outline-color: #640AA3;
+    background-color: var(--primary-background-color);
+    outline-color: var(--primary-color-4);
     transition-duration: 2s;
     transition-property: outline-color, background-color;
 }
 
 .halls-choice__button:focus {
     background-color: #FFFFFF;
-    outline-color: #640AA3;
+    outline-color: var(--primary-color-4);
     transition-duration: 2s;
     transition-property: outline-color, background-color;
 }
 
 .halls-choice__button:active {
     color: #ffffff;
-    background-color: #6C0287;
+    background-color: var(--primary-color);
     outline-color: #FFFFFF;
     transition-duration: 2s;
     transition-property: outline-color, background-color, color;
@@ -100,7 +100,7 @@
 }
 
 .console__radio:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -130,7 +130,7 @@
 }
 
 .boardgames__input:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -160,7 +160,7 @@
 }
 
 .othergames__input:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -195,7 +195,7 @@
 }
 
 .first__date:focus{
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -207,7 +207,7 @@
 }
 
 .first__time:focus{
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -219,7 +219,7 @@
 }
 
 .first__population:focus{
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -249,7 +249,7 @@
 }
 
 .next__input:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--main-color);
     transition-duration: 2s;
     transition-property: outline-color;
 }
@@ -259,7 +259,7 @@
     font-size: 22px;
     text-transform: uppercase;
     line-height: 28px;
-    color: #6C0287;
+    color: var(--primary-color);
     width: 300px;
     height: 60px;
     border-radius: 10px;
@@ -272,23 +272,23 @@
 }
 
 .next__button:hover {
-    color: #6C0287;
-    background-color: #EADEED;
-    outline-color: #6C0287;
+    color: var(--primary-color);
+    background-color: var(--primary-background-color);
+    outline-color: var(--primary-color);
     transition-duration: 1.5s;
     transition-property: outline-color, color, background-color;
 }
 
 .next__button:focus {
     background-color: #FFFFFF;
-    color: #6C0287;
-    outline-color: #6C0287;
+    color: var(--primary-color);
+    outline-color: var(--primary-color);
     transition-duration: 1.5s;
     transition-property: outline-color, color, background-color;
 }
 
 .next__button:active {
-    background-color: #EADEED;
+    background-color: var(--primary-background-color);
     outline-color: transparent;
     transition-duration: 1.5s;
     transition-property: background-color;

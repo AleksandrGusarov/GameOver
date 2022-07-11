@@ -38,9 +38,18 @@
 .card-one__image {
     width: 280px;
     height: 280px;
-    border-radius: 100%;
+    border-radius: 140px;
     object-fit: cover;
     object-position: top;
+    position: relative;
+}
+
+.card-one__gradient{
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.4) 100%);
+    position: absolute;
 }
 
 .card-one__subtitle {
@@ -77,6 +86,14 @@
     border-radius: 100%;
     object-fit: cover;
     object-position: top;
+}
+
+.card-next__gradient{
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.4) 100%);
+    position: absolute;
 }
 
 .card-next__subtitle {
@@ -148,6 +165,14 @@
     border-radius: 100%;
     object-fit: cover;
     object-position: top;
+}
+
+.card-last__gradient{
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.4) 100%);
+    position: absolute;
 }
 
 .card-last__subtitle {
