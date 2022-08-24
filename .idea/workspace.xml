@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2daa73e-d3c9-4c24-82e4-b5722c191d24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/var.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pinterest.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/faq.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/feedback.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/halls.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/halls.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/reservation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reservation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/var.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/var.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex.DESKTOP-3EETJOL/Desktop/learning/Web/project/GoBackup/Backup_25.06/index.html&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex.DESKTOP-3EETJOL/Desktop/learning/Web/project/ShopOnline/styles/main.css&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
@@ -100,7 +103,27 @@
       <workItem from="1657305740785" duration="2870000" />
       <workItem from="1657367594385" duration="6910000" />
       <workItem from="1657379906140" duration="1079000" />
-      <workItem from="1657550100014" duration="12763000" />
+      <workItem from="1657550100014" duration="12963000" />
+      <workItem from="1657724381670" duration="124000" />
+      <workItem from="1657727082515" duration="637000" />
+      <workItem from="1657736312844" duration="12000" />
+      <workItem from="1658470054593" duration="167000" />
+      <workItem from="1660298155964" duration="617000" />
+      <workItem from="1660461536079" duration="12239000" />
+      <workItem from="1660503672241" duration="3058000" />
+      <workItem from="1660546567319" duration="17451000" />
+      <workItem from="1660597874129" duration="2158000" />
+      <workItem from="1660639884502" duration="50000" />
+      <workItem from="1660808139425" duration="9711000" />
+      <workItem from="1660842739702" duration="3919000" />
+      <workItem from="1660887928858" duration="17911000" />
+      <workItem from="1660943286822" duration="1990000" />
+      <workItem from="1661028423709" duration="9292000" />
+      <workItem from="1661106078962" duration="6240000" />
+      <workItem from="1661197994048" duration="2241000" />
+      <workItem from="1661234566318" duration="5337000" />
+      <workItem from="1661282393218" duration="10687000" />
+      <workItem from="1661321079159" duration="14522000" />
     </task>
     <servers />
   </component>

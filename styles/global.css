@@ -1,6 +1,7 @@
 html {
     position: relative;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -12,7 +13,6 @@ html {
 body {
     min-width: 320px;
     min-height: 100vh;
-
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -80,6 +80,36 @@ iframe {
     max-width: 1240px;
     padding: 0 30px;
     margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 370px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 0 20px;
+    }
 }
 
 section {

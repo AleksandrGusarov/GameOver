@@ -27,6 +27,7 @@
     max-width: 1180px;
     min-height: 496px;
     font-size: 20px;
+    line-height: 28px;
     font-weight: 700;
     margin: 0 0;
     list-style: none;
@@ -119,4 +120,278 @@
     flex-flow: row wrap;
     align-items: end;
     padding: 0 0 30px 40px;
+}
+
+@media (max-width: 1250px) {
+    .audio {
+        padding: 0 40px 20px 40px;
+    }
+
+    .movies {
+        padding: 0 40px 20px 40px;
+    }
+}
+
+
+@media (max-width: 1155px) {
+    .services__item {
+        height: 202px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services__title {
+        font-size: 30px;
+        line-height: 40px;
+        min-height: 70px;
+        padding: 0 113px;
+        margin: 0 auto 36px;
+    }
+
+    .services__list {
+        max-width: 902px;
+        min-height: 343px;
+        gap: 30px 18px;
+    }
+
+    .services__item {
+        height: 172px;
+    }
+
+    .vr {
+        padding: 0 20px 35px 20px;
+    }
+
+    .audio {
+        padding: 0 57px 20px 20px;
+    }
+
+    .karaoke {
+        padding: 0 20px 35px 20px;
+    }
+
+    .board-games {
+        padding: 0 20px 35px 20px;
+    }
+
+    .movies {
+        padding: 0 20px 20px 20px;
+    }
+
+    .playstation {
+        padding: 0 20px 35px 20px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .services__section {
+        padding: 40px 0 30px 0;
+    }
+
+    .services__list {
+        display: grid;
+        place-items: stretch;
+        grid-template-columns: repeat(2, minmax(134px, 370px));
+        grid-template-rows: repeat(3, minmax(75px, 226px));
+        gap: 20px;
+    }
+
+    .services__item {
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+
+    .services__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .vr {
+        justify-content: start;
+        padding: 0 20px 40px 30px;
+    }
+
+    .audio {
+        grid-column: 2/3 ;
+        grid-row: 1/2;
+        position: static;
+        padding: 0 30px 12px 30px;
+    }
+
+    .karaoke {
+        justify-content: start;
+        padding: 0 20px 40px 30px;
+    }
+
+    .board-games {
+        justify-content: start;
+        padding: 0 20px 40px 30px;
+    }
+
+    .movies {
+        position: static;
+        padding: 0 30px 12px 30px;;
+    }
+
+    .playstation {
+        justify-content: start;
+        padding: 0 20px 40px 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .services__list {
+        grid-template-rows: repeat(3, minmax(75px, 155px));
+    }
+
+    .services__item {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .services__title {
+        font-size: 20px;
+        line-height: 32px;
+        padding: 0 63px;
+    }
+
+    .vr {
+        padding: 0 20px 35px 30px;
+    }
+
+    .audio {
+        padding: 0 30px 12px 30px;
+    }
+
+
+    .karaoke {
+        padding: 0 20px 35px 30px;
+    }
+
+    .board-games {
+        padding: 0 20px 35px 30px;
+    }
+
+    .movies {
+        padding: 0 30px 12px 30px;;
+    }
+
+    .playstation {
+        padding: 0 20px 35px 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .services__section {
+        padding: 23px 0 10px 0;
+    }
+
+    .services__list {
+        grid-template-rows: repeat(3, minmax(75px, 120px));
+        gap: 10px;
+    }
+
+    .services__item {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .services__title {
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 20px;
+        padding: 0 48px;
+        margin: 0 auto 15px;
+    }
+
+    .vr {
+        padding: 0 10px 31px 10px;
+    }
+
+    .audio {
+        padding: 0 30px 17px 10px;
+    }
+
+    .karaoke {
+        padding: 0 71px 17px 10px;
+    }
+
+    .board-games {
+        padding: 0 10px 31px 10px;
+    }
+
+    .movies {
+        padding: 0 30px 5px 10px;
+    }
+
+    .playstation {
+        padding: 0 10px 31px 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .services__list {
+        grid-template-columns: repeat(2, minmax(84px, 135px));
+        grid-template-rows: repeat(3, minmax(60px, 90px));
+        background-size: 100% 100%;
+        min-height: 200px;
+    }
+
+    .services__item {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .services__title {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 10px;
+    }
+
+    .vr {
+        padding: 0 10px 31px 10px;
+    }
+
+    .audio {
+        padding: 0 30px 17px 10px;
+    }
+
+    .karaoke {
+        padding: 0 71px 17px 10px;
+    }
+
+    .board-games {
+        padding: 0 10px 31px 10px;
+    }
+
+    .movies {
+        padding: 0 30px 5px 10px;
+    }
+
+    .playstation {
+        padding: 0 10px 31px 10px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .services__list {
+        grid-template-rows: repeat(3, minmax(60px, 75px));
+    }
+
+    .audio {
+        padding: 0 10px 17px 10px;
+    }
+
+    .karaoke {
+        padding: 0 11px 17px 10px;
+    }
+
+    .movies {
+        padding: 0 10px 5px 10px;
+    }
 }
