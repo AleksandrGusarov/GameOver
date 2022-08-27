@@ -8,8 +8,8 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 0 40px ;
-    margin: 0;
+    padding: 0 0;
+    margin-bottom: 40px;
 }
 
 .halls__list{
