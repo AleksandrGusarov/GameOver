@@ -11,14 +11,14 @@
     margin-bottom: 40px;
 }
 
-.reservation__subtitle {
+.halls-choice__subtitle {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 47px;
     text-align: center;
 }
 
-.halls-choice {
+.halls-choice__content {
     display: flex;
     flex-flow: row nowrap;
     gap: 60px;
@@ -81,12 +81,17 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
+    max-width: 230px;
 }
 
 .console__title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+}
+
+.console label {
+    cursor: pointer;
 }
 
 .console__radio {
@@ -96,7 +101,6 @@
     left: -10px;
     bottom: -6px;
     outline: 1px solid transparent;
-
 }
 
 .console__radio:focus {
@@ -118,6 +122,11 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+}
+
+.boardgames label {
+    max-width: 121px;
+    cursor: pointer;
 }
 
 .boardgames__input {
@@ -148,6 +157,11 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+}
+
+.othergames label {
+    max-width: 109px;
+    cursor: pointer;
 }
 
 .othergames__input {
@@ -230,6 +244,7 @@
     width: 134px;
     height: 52px;
     outline: 2px solid transparent;
+    padding: 5px 20px;
 }
 
 .first__date:focus{
@@ -242,6 +257,7 @@
     width: 134px;
     height: 52px;
     outline: 2px solid transparent;
+    padding: 5px 20px;
 }
 
 .first__time:focus{
@@ -254,6 +270,7 @@
     width: 300px;
     height: 52px;
     outline: 2px solid transparent;
+    padding: 5px 20px;
 }
 
 .first__population:focus{
@@ -268,13 +285,12 @@
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 38px;
 }
-
 
 .first__input {
     width: 300px;
     height: 52px;
+    padding: 5px 20px;
     outline: 2px solid transparent;
 }
 
@@ -334,13 +350,13 @@
         margin-bottom: 25px;
     }
 
-    .reservation__subtitle {
+    .halls-choice__subtitle {
         font-size: 24px;
         line-height: 28px;
         margin-bottom: 26px;
     }
 
-    .halls-choice {
+    .halls-choice__content {
         justify-content: center;
         align-items: center;
     }
@@ -421,7 +437,7 @@
         line-height: 20px;
     }
 
-    .halls-choice {
+    .halls-choice__content {
         gap: 29px;
     }
 
@@ -462,6 +478,10 @@
         gap: 20px;
     }
 
+    .othergames label {
+        max-width: 145px;
+    }
+
     .othergames__input {
         position: static;
         width: 40px;
@@ -477,6 +497,10 @@
         flex-direction: row;
         align-items: center;
         gap: 20px;
+    }
+
+    .boardgames label {
+        max-width: 164px;
     }
 
     .boardgames__input {
@@ -592,7 +616,7 @@
 
 @media (max-width: 750px) {
 
-    .halls-choice {
+    .halls-choice__content {
         display: grid;
         grid-template-columns: repeat(2, minmax(20px, 200px)) ;
         grid-template-rows: minmax(10px, 40px) minmax(10px, 40px);
@@ -668,7 +692,7 @@
     }
 
 
-    .halls-choice {
+    .halls-choice__content {
         place-items: center;
         margin-bottom: 30px;
         grid-template-columns: repeat(2, minmax(20px, 132px));
@@ -688,7 +712,7 @@
         padding: 30px 0;
     }
 
-    .halls-choice {
+    .halls-choice__content {
         grid-template-rows: minmax(10px, 30px) minmax(10px, 30px);
         gap: 14px 20px;
     }
@@ -698,7 +722,7 @@
         line-height: 20px;
     }
 
-    .reservation__subtitle {
+    .halls-choice__subtitle {
         font-size: 14px;
         line-height: 18px;
     }
@@ -720,6 +744,7 @@
     .console {
         font-size: 16px;
         line-height: 18.4px;
+        max-width: 174px;
     }
 
     .console__radio {
@@ -737,6 +762,10 @@
         line-height: 18.4px;
     }
 
+    .boardgames label {
+        max-width: 120px;
+    }
+
     .boardgames__input {
         width: 30px;
         height: 30px;
@@ -750,6 +779,10 @@
     .othergames {
         font-size: 16px;
         line-height: 18.4px;
+    }
+
+    .othergames label {
+        max-width: 111px;
     }
 
     .othergames__input {

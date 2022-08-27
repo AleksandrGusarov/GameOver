@@ -27,9 +27,14 @@
     margin: 0 0;
 }
 
-.about__paragraph {
+.about__content {
     grid-column: 2/3;
     grid-row: 2/3;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about__paragraph {
     font-weight: 400;
     font-size: 20px;
     white-space: pre-line;
@@ -179,8 +184,10 @@
         grid-row: 4/5;
     }
 
-    .about__paragraph {
-        place-self: center;
+    .about__content {
+        align-self: center;
+        align-items: center;
+        gap: 20px 0;
     }
 
     .about-next {
@@ -226,7 +233,6 @@
     }
 }
 
-
 @media (max-width: 638px) {
     .about {
         height: 922px;
@@ -243,9 +249,10 @@
         grid-row: 1/2;
     }
 
-    .about__paragraph {
+    .about__content {
         grid-column: 1/2;
         grid-row: 2/3;
+        gap: 10px 0;
     }
 
     .about__image {

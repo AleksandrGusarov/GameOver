@@ -10,7 +10,6 @@
 <body class="page">
 <div class="wrapper">
   <header class="page__header header">
-    <section class="header__section">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__menu menu">
@@ -28,23 +27,19 @@
               <img class="navigation__logo" src="img/logo.svg" alt="логотип GO">
             </div>
 
-            <div class="navigation">
-              <ul class="navigation__list">
-                <li class="navigation__item"><a href="#halls">залы</a></li>
-                <li class="navigation__item"><a href="#about">О нас</a></li>
-                <li class="navigation__item"><a href="#reservation">Бронь</a></li>
-                <li class="navigation__item"><a href="#feedback">отзывы</a></li>
-                <li class="navigation__item"><a href="#contacts">Контакты</a></li>
+            <div class="nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#halls">залы</a></li>
+                <li class="nav__item"><a href="#about">О нас</a></li>
+                <li class="nav__item"><a href="#reservation">Бронь</a></li>
+                <li class="nav__item"><a href="#feedback">отзывы</a></li>
+                <li class="nav__item"><a href="#contacts">Контакты</a></li>
               </ul>
             </div>
-
-            <div class="callback">
-              <button class="navigation__call" type="button">Заказать звонок</button>
-            </div>
+            <button class="navigation__call" type="button">Заказать звонок</button>
           </div>
         </div>
       </div>
-    </section>
   </header>
   <main class="page__main">
     <section class="banner">
@@ -56,17 +51,17 @@
 
         <div class="banner__description description">
           <div class="description__first description-first">
-            <img src="img/4.png" alt="количество залов">
+            <p class="description-first__title">4</p>
             <p class="description-first__paragraph">Тематических зала</p>
           </div>
           <div class="description__next description-next">
-            <img src="img/new.png" alt="new">
+            <p class="description-next__title">new</p>
             <p class="description-next__paragraph">Новейшая аппаратура</p>
           </div>
         </div>
 
         <div class="banner__second second">
-          <button class="second__button" type="submit">Забронировать</button>
+          <button class="second__button" type="button">Забронировать</button>
           <a class="second__btn" href="#next_section">
             <svg class="second__svg" width="97" height="97" viewbox="0 0 97 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
@@ -110,22 +105,24 @@
       <div class="container">
         <div class="reservation__wrapper">
           <h2 class="reservation__title" id="reservation">Забронировать зал просто</h2>
-          <p class="reservation__subtitle">Выбери зал</p>
           <form class="reservation__form selection" action="https://jsonplaceholder.typicode.com/posts"
                 method="post">
             <div class="selection__halls halls-choice ">
-              <label>
-                <input class="halls-choice__button" type="button" name="Halls" value="80'S VIBES">
-              </label>
-              <label>
-                <input class="halls-choice__button" type="button" name="Halls" value="STAR WARS">
-              </label>
-              <label>
-                <input class="halls-choice__button" type="button" name="Halls" value="WILD WEST">
-              </label>
-              <label>
-                <input class="halls-choice__button" type="button" name="Halls" value="NEON STYLE">
-              </label>
+              <p class="halls-choice__subtitle">Выбери зал</p>
+              <div class="halls-choice__content">
+                <label>
+                  <input class="halls-choice__button" type="button" name="Halls" value="80'S VIBES">
+                </label>
+                <label>
+                  <input class="halls-choice__button" type="button" name="Halls" value="STAR WARS">
+                </label>
+                <label>
+                  <input class="halls-choice__button" type="button" name="Halls" value="WILD WEST">
+                </label>
+                <label>
+                  <input class="halls-choice__button" type="button" name="Halls" value="NEON STYLE">
+                </label>
+              </div>
             </div>
             <div class="selection__kitset kitset">
               <h3 class="kitset__title">Собери набор развлечений</h3>
@@ -176,19 +173,19 @@
                 <div class="datatime__first first">
                   <label class="first__label data">
                     <select class="first__date" name="date" required>
-                      <option value="date">Дата</option>
+                      <option value="">Дата</option>
                     </select>
                   </label>
 
                   <label class="first__label time">
                     <select class="first__time" name="time" required>
-                      <option value="time">Время</option>
+                      <option value="">Время</option>
                     </select>
                   </label>
 
                   <label class="first__label population">
                     <select class="first__population" name="population" required>
-                      <option value="population">Сколько человек</option>
+                      <option value="">Сколько человек</option>
                     </select>
                   </label>
 
@@ -223,9 +220,10 @@
         <div class="about__wrapper about-wrapper__first">
           <h2 class="about__title" id="about"> О нас</h2>
           <img class="about__image" src="img/about.png" alt="коллаж услуг game over">
-          <p class="about__paragraph">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.
-
-            Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          <div class="about__content">
+            <p class="about__paragraph">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+            <p class="about__paragraph">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          </div>
           <p class="about__quote">GAME OVER —
             это место незабываемых впечатлений </p>
           <div class="about__wrapper about-next">
@@ -345,7 +343,6 @@
     </section>
   </main>
   <footer class="page__footer footer">
-    <section class="contacts__section">
       <div class="container">
         <div class="contacts__container">
           <h2 class="contacts__title" id="contacts">Контакты</h2>
@@ -359,9 +356,7 @@
                 <p class="contacts__address-description">г. Москва
                   ул. Усачёва, 29 к3</p>
               </div>
-
-
-              <a class="contacts__phone" href="8 (950) 930-28-93">8 (950) 930-28-93</a>
+              <a class="contacts__phone" href="8(950)930-28-93">8 (950) 930-28-93</a>
               <a class="contacts__mail" href="mailto:GameOver@gmai.com">GameOver@gmail.com</a>
             </div>
             <div class="social__wrapper">
@@ -400,20 +395,15 @@
           </div>
           <img class="contacts__image" src="img/map.png" alt="карта расположения Game Over">
         </div>
-      </div>
-    </section>
-
-    <aside class="building__aside">
-      <div class="container">
-        <div class="building__wrapper building">
+        <div class="building">
           <p class="building__about">© Game Over, 2022</p>
-          <div class="building__container building-second">
+          <div class="building__container building-container">
             <p class="building-second__design">Design by Anastasia Ilina</p>
             <a class="building-second__mail" href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a>
           </div>
         </div>
       </div>
-    </aside>
+
   </footer>
 </div>
 </body>

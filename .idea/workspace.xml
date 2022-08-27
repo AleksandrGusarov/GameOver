@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2daa73e-d3c9-4c24-82e4-b5722c191d24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Vector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pinterest.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/feedback.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/halls.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/halls.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/reservation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reservation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/var.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/var.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +116,10 @@
       <workItem from="1661197994048" duration="2241000" />
       <workItem from="1661234566318" duration="5337000" />
       <workItem from="1661282393218" duration="10687000" />
-      <workItem from="1661321079159" duration="14522000" />
+      <workItem from="1661321079159" duration="14567000" />
+      <workItem from="1661544638829" duration="4034000" />
+      <workItem from="1661589849032" duration="8070000" />
+      <workItem from="1661604790004" duration="8165000" />
     </task>
     <servers />
   </component>
