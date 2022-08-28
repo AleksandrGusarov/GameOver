@@ -21,11 +21,12 @@
 .halls-choice__content {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
     gap: 60px;
     margin-bottom: 60px;
 }
 
-.halls-choice__button {
+.halls-choice__btn label {
     font-size: 30px;
     font-weight: 700;
     width: 250px;
@@ -34,28 +35,44 @@
     align-items: center;
     border-radius: 8px;
     border: none;
+    background-color: #FFFFFF;
+    color: black;
     outline: 3px solid transparent;
+    padding: 7px 20px 8px 20px;
+    cursor: pointer;
 }
 
-.halls-choice__button:hover {
+.halls-choice__btn input {
+    display: none;
+}
+
+.halls-choice__btn label:hover {
     background-color: var(--primary-background-color);
     outline-color: var(--primary-color-4);
     transition-duration: 2s;
     transition-property: outline-color, background-color;
 }
 
-.halls-choice__button:focus {
+.halls-choice__btn label:active {
+    color: #ffffff;
+    background-color: var(--primary-color);
+    outline-color: #FFFFFF;
+    transition-duration: 1.5s;
+    transition-property: outline-color, background-color, color;
+}
+
+.halls-choice__btn label:focus {
     background-color: #FFFFFF;
     outline-color: var(--primary-color-4);
     transition-duration: 2s;
     transition-property: outline-color, background-color;
 }
 
-.halls-choice__button:active {
+.halls-choice__btn input[type=radio]:checked + label {
     color: #ffffff;
     background-color: var(--primary-color);
     outline-color: #FFFFFF;
-    transition-duration: 2s;
+    transition-duration: 1.5s;
     transition-property: outline-color, background-color, color;
 }
 
@@ -361,7 +378,7 @@
         align-items: center;
     }
 
-    .halls-choice__button {
+    .halls-choice__btn label {
         font-size: 20px;
         line-height: 24px;
         max-width: 180px;
@@ -430,7 +447,7 @@
         line-height: 36px;
     }
 
-    .halls-choice__button {
+    .halls-choice__btn label {
         max-width: 150px;
         height: 38px;
         font-size: 16px;
@@ -626,7 +643,7 @@
         gap: 31px 68px;
     }
 
-    .halls-choice__button {
+    .halls-choice__btn label {
         max-width: 180px;
         height: 40px;
         font-size: 18px;
@@ -698,7 +715,7 @@
         grid-template-columns: repeat(2, minmax(20px, 132px));
     }
 
-    .halls-choice__button {
+    .halls-choice__btn label {
         max-width: 130px;
         height: 30px;
         font-size: 14px;
@@ -829,7 +846,7 @@
         margin-bottom: 0;
     }
 
-    .halls-choice__button {
+    .halls-choice__btn label {
         border-radius: 4px;
     }
 
