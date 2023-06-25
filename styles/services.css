@@ -33,9 +33,12 @@
     list-style: none;
     padding: 0 0;
     position: relative;
-    display: flex;
+    display: grid;
     gap: var(--gap);
     flex-flow: row wrap;
+				grid-template-columns: repeat(3, minmax(134px, 370px));
+					grid-template-rows: repeat(2, minmax(75px, 226px));
+					margin-bottom: 52px;
 }
 
 .services__item {
